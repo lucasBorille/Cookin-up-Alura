@@ -1,40 +1,66 @@
-# cookin-up
+# Cookin' Up
 
-This template should help get you started developing with Vue 3 in Vite.
+## Sobre o Projeto
 
-## Recommended IDE Setup
+**Cookin' Up** é um projeto desenvolvido durante o curso de Vue.js da [Alura](https://www.alura.com.br/). A aplicação permite que os usuários descubram novas receitas com base nos ingredientes que possuem em casa. Basta selecionar os ingredientes disponíveis em uma lista categorizada, e o site busca por receitas correspondentes utilizando uma API externa.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Este é um projeto fictício, criado para fins educacionais, para praticar e demonstrar habilidades em desenvolvimento front-end com o ecossistema Vue.
 
-## Type Support for `.vue` Imports in TS
+## ✨ Funcionalidades
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+  * **Seleção de Ingredientes:** Navegue por categorias e selecione os ingredientes que você tem à disposição.
+  * **Sua Lista:** Visualize a lista de ingredientes selecionados em tempo real.
+  * **Busca de Receitas:** Com base nos seus ingredientes, o sistema busca e exibe as receitas possíveis.
+  * **Visualização de Receitas:** As receitas encontradas são exibidas em cards com nome e imagem.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## 🛠️ Tecnologias Utilizadas
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+O projeto foi construído utilizando as seguintes tecnologias:
 
-## Customize configuration
+  * **[Vue.js 3](https://vuejs.org/)**: O framework progressivo para a construção da interface de usuário.
+  * **[Vite](https://vitejs.dev/)**: Ferramenta de build moderna que oferece uma experiência de desenvolvimento mais rápida.
+  * **[TypeScript](https://www.typescriptlang.org/)**: Um superset do JavaScript que adiciona tipagem estática ao código.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 🚀 Começando
 
-## Project Setup
+Siga as instruções abaixo para executar o projeto em seu ambiente local.
 
-```sh
-npm install
-```
+### Pré-requisitos
 
-### Compile and Hot-Reload for Development
+Você precisa ter o [Node.js](https://nodejs.org/en/) (que inclui o npm) instalado em sua máquina.
 
-```sh
-npm run dev
-```
+### Instalação e Execução
 
-### Type-Check, Compile and Minify for Production
+1.  Clone o repositório:
 
-```sh
-npm run build
-```
+    ```bash
+    git clone https://github.com/seu-usuario/cookin-up-alura.git
+    ```
+
+2.  Navegue até o diretório do projeto:
+
+    ```bash
+    cd cookin-up-alura
+    ```
+
+3.  Instale as dependências:
+
+    ```sh
+    npm install
+    ```
+
+4.  Execute o projeto em modo de desenvolvimento com hot-reload:
+
+    ```sh
+    npm run dev
+    ```
+
+5.  Para gerar a versão de produção, otimizada e minificada:
+
+    ```sh
+    npm run build
+    ```
+
+## 📝 Licença
+
+Este projeto é para fins de estudo e não possui uma licença comercial. Desenvolvido por Alura | 2023 - Projeto fictício sem fins comerciais.
